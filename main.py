@@ -9,6 +9,9 @@ from streamlit_folium import folium_static, st_folium
 def load_data():
     return pd.read_csv("countries.csv")
 
+# def load_data():
+#     return pd.read_csv("europe.csv")
+
 data = load_data()
 
 # Create streamlit app
